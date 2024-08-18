@@ -38,7 +38,7 @@ var APP_DATA = {
           "yaw": 0.8311458840059203,
           "pitch": -0.0021943652544820225,
           "title": "casa di riposo",
-          "text": "<div><img src='images/casa-di-riposo.jpg' alt='Casa di Riposo' style='width:100%;'></div>"
+          "text": "<div><img src='/Users/giuliatomasi/archivio/360tour/img/casa-di-riposo.jpg' alt='Casa di Riposo' style='width:100%;'></div>"
 
       
         {
