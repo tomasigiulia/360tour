@@ -45,7 +45,7 @@ var APP_DATA = {
           "yaw": -2.936838119292357,
           "pitch": -0.015440115302929769,
           "title": "Title",
-          "text": "<div>prova</div>"
+          "text": "<div>prova 2</div>"
         }
       ]
     }
