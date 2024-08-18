@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-dji_20240816182518_0074_d",
-      "name": "DJI_20240816182518_0074_D",
+      "id": "0-rocolo",
+      "name": "rocolo",
       "levels": [
         {
           "tileSize": 256,
@@ -28,9 +28,9 @@ var APP_DATA = {
       ],
       "faceSize": 3000,
       "initialViewParameters": {
-        "yaw": 1.479190176899924,
+        "yaw": -2.654097514459398,
         "pitch": 0,
-        "fov": 1.4525496255158559
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": [
@@ -39,6 +39,12 @@ var APP_DATA = {
           "pitch": -0.0021943652544820225,
           "title": "casa di riposo",
           "text": "Text"
+        },
+        {
+          "yaw": -2.936838119292357,
+          "pitch": -0.015440115302929769,
+          "title": "Title",
+          "text": "<div>prova</div>"
         }
       ]
     }
