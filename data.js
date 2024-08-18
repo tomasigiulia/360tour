@@ -45,6 +45,8 @@ var APP_DATA = {
           "pitch": -0.015440115302929769,
           "title": "Title",
           "text": "<div>prova</div>"
+          "text": "<div>prova</div><img src='/Users/giuliatomasi/archivio/360tour/img/casa-di-riposo.jpg' alt='Immagine' style='width:100%;height:auto;'/>"
+        }
         }
       ]
     }
