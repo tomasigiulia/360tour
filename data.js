@@ -37,7 +37,7 @@ var APP_DATA = {
         {
           "yaw": 0.8311458840059203,
           "pitch": -0.0021943652544820225,
-          "title": "casa di riposo per anziani",
+          "title": "casa di riposo",
           "text": "Text"
         },
         {
@@ -45,8 +45,6 @@ var APP_DATA = {
           "pitch": -0.015440115302929769,
           "title": "Title",
           "text": "<div>prova</div>"
-      
-        }
         }
       ]
     }
