@@ -44,8 +44,9 @@ var APP_DATA = {
           "yaw": -2.936838119292357,
           "pitch": -0.015440115302929769,
           "title": "Title",
-          
-          "text": "<div>prova</div><img src='/Users/giuliatomasi/archivio/360tour/img/casa-di-riposo.jpg' alt='Immagine' style='width:100%;height:auto;'/>"
+          "text": "<img src='/Users/giuliatomasi/archivio/360tour/img/casa-di-riposo.jpg' alt='Immagine' width='300' height='200' />"
+
+      
         }
         }
       ]
