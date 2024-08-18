@@ -34,12 +34,17 @@ var APP_DATA = {
       },
       "linkHotspots": [],
       "infoHotspots": [
-
+        {
+          "yaw": 0.8311458840059203,
+          "pitch": -0.0021943652544820225,
+          "title": "casa di riposo",
+          "text": "Text"
+        },
         {
           "yaw": -2.936838119292357,
           "pitch": -0.015440115302929769,
           "title": "Title",
-          "text": "<div>prova 2</div>"
+          "text": "<div>prova</div>"
         }
       ]
     }
