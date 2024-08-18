@@ -34,13 +34,7 @@ var APP_DATA = {
       },
       "linkHotspots": [],
       "infoHotspots": [
-        {
-          "yaw": 0.8311458840059203,
-          "pitch": -0.0021943652544820225,
-          "title": "casariposo",
-          "text": "<div><img src='/Users/giuliatomasi/archivio/360tour/img/casa-di-riposo.jpg' alt='Casa di Riposo' style='width:100%;'></div>"
-        }
-      
+
         {
           "yaw": -2.936838119292357,
           "pitch": -0.015440115302929769,
