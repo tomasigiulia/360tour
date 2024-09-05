@@ -23,6 +23,7 @@
     </hotspots>
     <media/>
     <transition zoomspeed="2" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="20" blendtime="1"/>
+    <autorotate returntohorizon="0.000" startloaded="0" enabled="1" speed="0.100" nodedelay="0.00" noderandom="1" useanimation="1" delay="5.00"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="1" animsequence="Animation01"/>
     <control invertwheel="0" contextfullscreen="1" sensitivity="8" simulatemass="1" contextprojections="0" lockedkeyboard="0" invertcontrol="1" speedwheel="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
@@ -49,6 +50,7 @@
     </hotspots>
     <media/>
     <transition zoomspeed="2" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="20" blendtime="1"/>
+    <autorotate returntohorizon="0.000" startloaded="0" enabled="1" speed="0.100" nodedelay="0.00" noderandom="1" useanimation="1" delay="5.00"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="1" animsequence="Animation01"/>
     <control invertwheel="0" contextfullscreen="1" sensitivity="8" simulatemass="1" contextprojections="0" lockedkeyboard="0" invertcontrol="1" speedwheel="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
@@ -74,6 +76,7 @@
     </hotspots>
     <media/>
     <transition zoomspeed="2" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="20" blendtime="1"/>
+    <autorotate returntohorizon="0.000" startloaded="0" enabled="1" speed="0.100" nodedelay="0.00" noderandom="1" useanimation="1" delay="5.00"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="1" animsequence="Animation01"/>
     <control invertwheel="0" contextfullscreen="1" sensitivity="8" simulatemass="1" contextprojections="0" lockedkeyboard="0" invertcontrol="1" speedwheel="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
@@ -99,6 +102,7 @@
     </hotspots>
     <media/>
     <transition zoomspeed="2" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="20" blendtime="1"/>
+    <autorotate returntohorizon="0.000" startloaded="0" enabled="1" speed="0.100" nodedelay="0.00" noderandom="1" useanimation="1" delay="5.00"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="1" animsequence="Animation01"/>
     <control invertwheel="0" contextfullscreen="1" sensitivity="8" simulatemass="1" contextprojections="0" lockedkeyboard="0" invertcontrol="1" speedwheel="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
@@ -124,6 +128,7 @@
     </hotspots>
     <media/>
     <transition zoomspeed="2" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="20" blendtime="1"/>
+    <autorotate returntohorizon="0.000" startloaded="0" enabled="1" speed="0.100" nodedelay="0.00" noderandom="1" useanimation="1" delay="5.00"/>
     <flyintransition enabled="1" speed="2.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="1" animsequence="Animation01"/>
     <control invertwheel="0" contextfullscreen="1" sensitivity="8" simulatemass="1" contextprojections="0" lockedkeyboard="0" invertcontrol="1" speedwheel="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0"/>
