@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: silhouette_v6giuli2.ggsk
-// Generated lun set 9 13:53:37 2024
+// Generated lun set 9 13:57:18 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -7911,7 +7911,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='map';
 		hs ='';
 		hs+='background : #ffffff;';
-		hs+='border : 1px solid #000000;';
+		hs+='border : 2px solid #000000;';
 		hs+='cursor : pointer;';
 		hs+='height : 286px;';
 		hs+='overflow : hidden;';
@@ -8023,7 +8023,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='rectangle';
 		hs ='';
 		hs+='background : #ffffff;';
-		hs+='border : 2px solid #000000;';
+		hs+='border : 3px solid #000000;';
 		hs+='cursor : default;';
 		hs+='height : 33px;';
 		hs+='position : absolute;';
@@ -8338,7 +8338,7 @@ function pano2vrSkin(player,base) {
 					this.options.pane = 'markerPane';
 					var pane = map.getPane(this.options.pane);
 					pane.appendChild(this._div);
-					this._div.style.left = -17 + 'px';
+					this._div.style.left = -13 + 'px';
 					this._div.style.top = -22 + 'px';
 					this._update();
 					map.on('zoomstart', this._zoomStart, this);
@@ -13351,8 +13351,8 @@ function pano2vrSkin(player,base) {
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="Svg 1";
-		el.ggDx=197;
-		el.ggDy=-144;
+		el.ggDx=181;
+		el.ggDy=-132;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_svg ";
@@ -13364,7 +13364,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : -10000px;';
 		hs+='visibility : inherit;';
-		hs+='width : 34px;';
+		hs+='width : 27px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
