@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: silhouette_v6giuli2.ggsk
-// Generated lun set 9 12:00:38 2024
+// Generated lun set 9 12:06:01 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -7944,6 +7944,12 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 1;
 			}
+			else if (
+				(player.getViewerSize().width <= 300)
+			)
+			{
+				newLogicStateScaling = 2;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -7958,6 +7964,11 @@ function pano2vrSkin(player,base) {
 				else if (me._map_1.ggCurrentLogicStateScaling == 1) {
 					me._map_1.ggParameter.sx = 0.5;
 					me._map_1.ggParameter.sy = 0.5;
+					me._map_1.style[domTransform]=parameterToTransform(me._map_1.ggParameter);
+				}
+				else if (me._map_1.ggCurrentLogicStateScaling == 2) {
+					me._map_1.ggParameter.sx = 0.3;
+					me._map_1.ggParameter.sy = 0.3;
 					me._map_1.style[domTransform]=parameterToTransform(me._map_1.ggParameter);
 				}
 				else {
@@ -8014,12 +8025,12 @@ function pano2vrSkin(player,base) {
 		hs+='background : #ffffff;';
 		hs+='border : 2px solid #000000;';
 		hs+='cursor : default;';
-		hs+='height : 62px;';
+		hs+='height : 33px;';
 		hs+='position : absolute;';
-		hs+='right : 61px;';
-		hs+='top : 102px;';
+		hs+='right : 88px;';
+		hs+='top : 127px;';
 		hs+='visibility : inherit;';
-		hs+='width : 64px;';
+		hs+='width : 30px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='100% 0%';
@@ -8049,12 +8060,12 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='height : 47px;';
+		hs+='height : 26px;';
 		hs+='position : absolute;';
-		hs+='right : 73px;';
-		hs+='top : 110px;';
+		hs+='right : 90px;';
+		hs+='top : 131px;';
 		hs+='visibility : inherit;';
-		hs+='width : 49px;';
+		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='100% 0%';
