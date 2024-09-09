@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: silhouette_v6giuli2.ggsk
-// Generated lun set 9 13:57:18 2024
+// Generated lun set 9 14:02:21 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -7979,13 +7979,7 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._map_1.ondblclick=function (e) {
-			if (me._map_1.ggMapNotLoaded) {
-				me._map_1.ggInitMap(false);
-				me._map_1.ggInitMapMarkers(true);
-			}
-			me._map_1.style[domTransition]='none';
-			me._map_1.style.visibility=(Number(me._map_1.style.opacity)>0||!me._map_1.style.opacity)?'inherit':'hidden';
-			me._map_1.ggVisible=true;
+			player.enterFullscreen();
 		}
 		me._map_1.ggCurrentLogicStateScaling = -1;
 		me._map_1.ggUpdateConditionTimer=function () {
