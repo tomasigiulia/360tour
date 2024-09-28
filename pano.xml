@@ -1,135 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.0.1" start="node7" apprev="17227">
-  <panorama id="node7" hideabout="1">
-    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="3000" levelbias="0.400" levelbiashidpi="1.000" width="3000" overlap="1" levelingroll="0">
-      <level preload="0" predecode="0" height="3000" width="3000"/>
-      <level preload="0" predecode="0" height="1500" width="1500"/>
-      <level preload="0" predecode="0" height="750" width="750"/>
-      <level preload="1" predecode="1" height="375" width="375"/>
-      <preview strip="1" color="0x808080"/>
+<tour apprev="20913" start="node7" hassounds="0" appversion="7.1.2">
+  <panorama id="node7">
+    <input height="3000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelingpitch="0" width="3000" levelingroll="0" levelbias="0.400">
+      <level height="3000" preload="0" predecode="0" width="3000"/>
+      <level height="1500" preload="0" predecode="0" width="1500"/>
+      <level height="750" preload="0" predecode="0" width="750"/>
+      <level height="375" preload="1" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-89.8766" fov="69.0009" projection="4" tilt="-9.39502"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="120" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-9.39502" projection="4" fov="69.0009" pan="-89.8766"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="120" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata copyright="" info="" latitude="45.813839" longitude="10.962569" datetime="24/08/24 11:28" tags="Downloads" title="crosano-cazzano" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label border="1" bordercolor="0x000000" wordwrap="1" height="20" background="1" backgroundalpha="1" width="180" textcolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot pan="-136.61" url="images/Pont_del_Diaol_(Brentonico).jpg" target="" id="Point01" skinid="ht_image" title="Pont del diaol" tilt="-7.52" description=""/>
-      <hotspot pan="-329.4" url="" target="_blank" id="Point02" skinid="ht_url" title="prova" tilt="-45.04" description=""/>
+    <userdata author="" comment="" longitude="10.962569" heading="0" info="" title="crosano-cazzano" nodeid="node7" description="" customnodeid="" source="" datetime="24/08/24 11:28" altitude="567.77" tags="Downloads" copyright="" latitude="45.813839"/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" height="20" enabled="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" background="1" borderradius="1" textalpha="1" width="180" border="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-7.52" target="" id="Point01" url="images/Pont_del_Diaol_Brentonico.jpg" pan="-136.61" title="Pont del diaol" description="" skinid="ht_image"/>
+      <hotspot tilt="-45.04" target="_blank" id="Point02" url="" pan="-329.4" title="prova" description="" skinid="ht_url"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" blendtime="1" zoomspeed="2"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="1" syncanimationwithvideo="0"/>
-    <control simulatemass="1" lockedwheel="0" lockedkeyboard="0" contextprojections="0" lockedkeyboardzoom="0" speedwheel="1" lockedmouse="0" invertcontrol="1" contextfullscreen="1" sensitivity="8" invertwheel="0" dblclickfullscreen="1" hideabout="1" rubberband="1"/>
+    <transition blendtime="1" zoomafterinfov="90" enabled="1" zoomin="0" blendcolor="0x000000" delay="none" zoomafteroutfov="20" softedge="0" zoomfov="20" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomspeed="2"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" contextprojections="0" rubberband="0" lockedkeyboard="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0" sensitivity="8" invertwheel="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
   </panorama>
-  <panorama id="node8" hideabout="1">
-    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="3000" levelbias="0.400" levelbiashidpi="1.000" width="3000" overlap="1" levelingroll="0">
-      <level preload="0" predecode="0" height="3000" width="3000"/>
-      <level preload="0" predecode="0" height="1500" width="1500"/>
-      <level preload="0" predecode="0" height="750" width="750"/>
-      <level preload="1" predecode="1" height="375" width="375"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node8">
+    <input height="3000" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelingpitch="0" width="3000" levelingroll="0" levelbias="0.400">
+      <level height="3000" preload="0" predecode="0" width="3000"/>
+      <level height="1500" preload="0" predecode="0" width="1500"/>
+      <level height="750" preload="0" predecode="0" width="750"/>
+      <level height="375" preload="1" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-80.168" fov="69.0009" projection="4" tilt="-7.70393"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="120" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-7.70393" projection="4" fov="69.0009" pan="-80.168"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="120" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata copyright="" info="" latitude="45.816447" longitude="10.961527" datetime="16/08/24 18:25" tags="drone prime prove brentonico" title="brentonico" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label border="1" bordercolor="0x000000" wordwrap="1" height="20" background="1" backgroundalpha="1" width="180" textcolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot pan="-68.12" url="https://it.wikipedia.org/wiki/Brentonico" target="_blank" id="Point01" skinid="ht_url" title="Brentonico - Wikipedia" tilt="3.82" description=""/>
+    <userdata author="" comment="" longitude="10.961527" heading="0" info="" title="brentonico" nodeid="node8" description="" customnodeid="" source="" datetime="16/08/24 18:25" altitude="690.34" tags="drone prime prove brentonico" copyright="" latitude="45.816447"/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" height="20" enabled="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" background="1" borderradius="1" textalpha="1" width="180" border="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="3.82" target="_blank" id="Point01" url="https://it.wikipedia.org/wiki/Brentonico" pan="-68.12" title="Brentonico - Wikipedia" description="" skinid="ht_url"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" blendtime="1" zoomspeed="2"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="1" syncanimationwithvideo="0"/>
-    <control simulatemass="1" lockedwheel="0" lockedkeyboard="0" contextprojections="0" lockedkeyboardzoom="0" speedwheel="1" lockedmouse="0" invertcontrol="1" contextfullscreen="1" sensitivity="8" invertwheel="0" dblclickfullscreen="1" hideabout="1" rubberband="1"/>
+    <transition blendtime="1" zoomafterinfov="90" enabled="1" zoomin="0" blendcolor="0x000000" delay="none" zoomafteroutfov="20" softedge="0" zoomfov="20" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomspeed="2"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" contextprojections="0" rubberband="0" lockedkeyboard="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0" sensitivity="8" invertwheel="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
   </panorama>
-  <panorama id="node6" hideabout="1">
-    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="3000" levelbias="0.400" levelbiashidpi="1.000" width="3000" overlap="1" levelingroll="0">
-      <level preload="0" predecode="0" height="3000" width="3000"/>
-      <level preload="0" predecode="0" height="1500" width="1500"/>
-      <level preload="0" predecode="0" height="750" width="750"/>
-      <level preload="1" predecode="1" height="375" width="375"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node6">
+    <input height="3000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelingpitch="0" width="3000" levelingroll="0" levelbias="0.400">
+      <level height="3000" preload="0" predecode="0" width="3000"/>
+      <level height="1500" preload="0" predecode="0" width="1500"/>
+      <level height="750" preload="0" predecode="0" width="750"/>
+      <level height="375" preload="1" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="98.7209" fov="69.0009" projection="4" tilt="-20.3875"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="120" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-20.3875" projection="4" fov="69.0009" pan="98.7209"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="120" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata copyright="" info="" latitude="46.46245751" longitude="12.13165283" datetime="30/08/24 10:12" tags="Downloads" title="pelmo" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label border="1" bordercolor="0x000000" wordwrap="1" height="20" background="1" backgroundalpha="1" width="180" textcolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" comment="" longitude="12.13165283" heading="0" info="" title="pelmo" nodeid="node6" description="" customnodeid="" source="" datetime="30/08/24 10:12" altitude="3182.51" tags="Downloads" copyright="" latitude="46.46245751"/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" height="20" enabled="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" background="1" borderradius="1" textalpha="1" width="180" border="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" blendtime="1" zoomspeed="2"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="1" syncanimationwithvideo="0"/>
-    <control simulatemass="1" lockedwheel="0" lockedkeyboard="0" contextprojections="0" lockedkeyboardzoom="0" speedwheel="1" lockedmouse="0" invertcontrol="1" contextfullscreen="1" sensitivity="8" invertwheel="0" dblclickfullscreen="1" hideabout="1" rubberband="1"/>
+    <transition blendtime="1" zoomafterinfov="90" enabled="1" zoomin="0" blendcolor="0x000000" delay="none" zoomafteroutfov="20" softedge="0" zoomfov="20" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomspeed="2"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" contextprojections="0" rubberband="0" lockedkeyboard="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0" sensitivity="8" invertwheel="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
   </panorama>
-  <panorama id="node4" hideabout="1">
-    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="3000" levelbias="0.400" levelbiashidpi="1.000" width="3000" overlap="1" levelingroll="0">
-      <level preload="0" predecode="0" height="3000" width="3000"/>
-      <level preload="0" predecode="0" height="1500" width="1500"/>
-      <level preload="0" predecode="0" height="750" width="750"/>
-      <level preload="1" predecode="1" height="375" width="375"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node4">
+    <input height="3000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelingpitch="0" width="3000" levelingroll="0" levelbias="0.400">
+      <level height="3000" preload="0" predecode="0" width="3000"/>
+      <level height="1500" preload="0" predecode="0" width="1500"/>
+      <level height="750" preload="0" predecode="0" width="750"/>
+      <level height="375" preload="1" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-26.3894" fov="69.0009" projection="4" tilt="-5.00793"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="120" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-5.00793" projection="4" fov="69.0009" pan="-26.3894"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="120" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata copyright="" info="" latitude="46.166736" longitude="10.571775" datetime="02/09/24 06:21" tags="2024_09_01_02Da_cima_Presena_Mandron_fino_Caduti_riprese_docufilm_euregio" title="lobbia alta alba" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label border="1" bordercolor="0x000000" wordwrap="1" height="20" background="1" backgroundalpha="1" width="180" textcolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" comment="" longitude="10.571775" heading="0" info="" title="lobbia alta alba" nodeid="node4" description="" customnodeid="" source="" datetime="02/09/24 06:21" altitude="3223.12" tags="2024_09_01_02Da_cima_Presena_Mandron_fino_Caduti_riprese_docufilm_euregio" copyright="" latitude="46.166736"/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" height="20" enabled="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" background="1" borderradius="1" textalpha="1" width="180" border="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" blendtime="1" zoomspeed="2"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="1" syncanimationwithvideo="0"/>
-    <control simulatemass="1" lockedwheel="0" lockedkeyboard="0" contextprojections="0" lockedkeyboardzoom="0" speedwheel="1" lockedmouse="0" invertcontrol="1" contextfullscreen="1" sensitivity="8" invertwheel="0" dblclickfullscreen="1" hideabout="1" rubberband="1"/>
+    <transition blendtime="1" zoomafterinfov="90" enabled="1" zoomin="0" blendcolor="0x000000" delay="none" zoomafteroutfov="20" softedge="0" zoomfov="20" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomspeed="2"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" contextprojections="0" rubberband="0" lockedkeyboard="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0" sensitivity="8" invertwheel="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
   </panorama>
-  <panorama id="node5" hideabout="1">
-    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="3000" levelbias="0.400" levelbiashidpi="1.000" width="3000" overlap="1" levelingroll="0">
-      <level preload="0" predecode="0" height="3000" width="3000"/>
-      <level preload="0" predecode="0" height="1500" width="1500"/>
-      <level preload="0" predecode="0" height="750" width="750"/>
-      <level preload="1" predecode="1" height="375" width="375"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node5">
+    <input height="3000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelingpitch="0" width="3000" levelingroll="0" levelbias="0.400">
+      <level height="3000" preload="0" predecode="0" width="3000"/>
+      <level height="1500" preload="0" predecode="0" width="1500"/>
+      <level height="750" preload="0" predecode="0" width="750"/>
+      <level height="375" preload="1" predecode="1" width="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-33.239" fov="69.0009" projection="4" tilt="5.56382"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="120" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view fovmode="0" pannorth="0">
+      <start tilt="5.56382" projection="4" fov="69.0009" pan="-33.239"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="120" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata copyright="" info="" latitude="46.166892" longitude="10.558708" datetime="02/09/24 08:17" tags="2024_09_01_02Da_cima_Presena_Mandron_fino_Caduti_riprese_docufilm_euregio" title="adamello" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label border="1" bordercolor="0x000000" wordwrap="1" height="20" background="1" backgroundalpha="1" width="180" textcolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+    <userdata author="" comment="" longitude="10.558708" heading="0" info="" title="adamello" nodeid="node5" description="" customnodeid="" source="" datetime="02/09/24 08:17" altitude="3465.94" tags="2024_09_01_02Da_cima_Presena_Mandron_fino_Caduti_riprese_docufilm_euregio" copyright="" latitude="46.166892"/>
+    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
+      <label borderalpha="1" height="20" enabled="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" background="1" borderradius="1" textalpha="1" width="180" border="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" softedge="0" blendcolor="0x000000" zoomfov="20" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" blendtime="1" zoomspeed="2"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="1" syncanimationwithvideo="0"/>
-    <control simulatemass="1" lockedwheel="0" lockedkeyboard="0" contextprojections="0" lockedkeyboardzoom="0" speedwheel="1" lockedmouse="0" invertcontrol="1" contextfullscreen="1" sensitivity="8" invertwheel="0" dblclickfullscreen="1" hideabout="1" rubberband="1"/>
+    <transition blendtime="1" zoomafterinfov="90" enabled="1" zoomin="0" blendcolor="0x000000" delay="none" zoomafteroutfov="20" softedge="0" zoomfov="20" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomspeed="2"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control contextvr="1" dblclickfullscreen="0" contextprojections="0" rubberband="0" lockedkeyboard="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" hideabout="0" sensitivity="8" invertwheel="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
   </panorama>
   <masternode>
-    <userdata copyright="" info="" latitude="" longitude="" datetime="" tags="" title="" source="" author="" comment="" customnodeid="" description=""/>
+    <userdata author="" tags="" comment="" copyright="" title="" description=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
   </masternode>
-  <map mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapmaxzoom="18" mapstyle="streets" id="Map01" title="" type="web" mapprovider="openstreetmap"/>
+  <map mapprovider="openstreetmap" id="Map01" mapmaxzoom="18" title="" googlecustomstylecode="" mapstyle="streets" index="0" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" type="web"/>
 </tour>
