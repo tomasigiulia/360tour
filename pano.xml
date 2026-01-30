@@ -19,7 +19,7 @@
       <label borderalpha="1" height="20" enabled="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" background="1" borderradius="1" textalpha="1" width="180" border="1"/>
       <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot tilt="-7.52" target="" id="Point01" url="images/Pont_del_Diaol_Brentonico.jpg" pan="-136.61" title="Pont del diaol" description="" skinid="ht_image"/>
-      <hotspot tilt="-45.04" target="_blank" id="Point02" url="" pan="-329.4" title="prova" description="" skinid="ht_url"/>
+      
     </hotspots>
     <media/>
     <transition blendtime="1" zoomafterinfov="90" enabled="1" zoomin="0" blendcolor="0x000000" delay="none" zoomafteroutfov="20" softedge="0" zoomfov="20" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomspeed="2"/>
